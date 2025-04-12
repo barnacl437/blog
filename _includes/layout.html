@@ -3,11 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ title | default: "My Blog" }}</title>
+		<style>
+			@import url(D:\other-shits\gits\barnacl437.github.io\assets\barncascade.css);
+		</style>
+		<title>{{ title | default: "barn blog" }}</title>
 	</head>
 	<body>
+
 		<header>
-			<h1>{{ title | default: "My Blog" }}</h1>
+			<a href="https://barnacl437.is-a.dev">home</a> . <a href="/index.html">blog</a> . <a href="https://github.com/barnacl437/blog">source code</a>
+			<h1>{{ title | default: "barn blog" }}</h1>
+			
 		</header>
 		<main>
 			{{ content }}
