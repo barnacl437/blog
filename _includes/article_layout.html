@@ -4,16 +4,16 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
-			@import url(D:\other-shits\gits\barnacl437.github.io\assets\barncascade.css);
+			@import url(https://barnacl437.is-a.dev/style.css);
 		</style>
 		<title>{{ title | default: "barn blog" }}</title>
 	</head>
 	<body>
 
 		<header>
-			<a href="https://barnacl437.is-a.dev">home</a> . <a href="/index.html">blog</a> . <a href="https://github.com/barnacl437/blog">source code</a>
+			<a href="https://barnacl437.is-a.dev">home</a> . <a href="/index.html">blog</a>
 			<h1>{{ title | default: "barn blog" }}</h1>
-			
+			<p style="font-size:11; color: chartreuse;"> {{ page.date | readableDate }} {{ time }} </p>
 		</header>
 		<main>
 			{{ content }}

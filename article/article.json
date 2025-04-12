@@ -1,0 +1,5 @@
+{
+	"layout": "article_layout.html",
+	"tags": "pst",
+	"permalink": "/{{ page.fileSlug }}/"
+}
