@@ -1,7 +1,7 @@
 {
-  "name": "demo-eleventy-from-scratch-blog",
-  "version": "1.0.0",
-  "description": "Companion code to the “6 Minutes to Build a Blog from Scratch” tutorial.",
+  "name": "barn-blog",
+  "version": "1.0-20250416",
+  "description": "a blog by barnacl437. code taken from eleventy's '6 minutes to build a blog' tutorial.",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
