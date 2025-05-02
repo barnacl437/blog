@@ -11,16 +11,17 @@
 	<body>
 
 		<header>
-			<p><a href="https://barnacl437.is-a.dev">home</a> . <a href="/index.html">blog</a> . post {{ post.url }}</p>
+			<p><a href="https://barnacl437.is-a.dev">main website</a> .
+				 <a href="/index.html">blog index</a> . post [{{ title }}]</p>
 			<h1>{{ title | default: "barn blog" }}</h1>
 			<p style="font-size:11; color: chartreuse;"> {{ page.date | readableDate }} {{ time }} </p>
 		</header>
 		<main>
 			{{ content }}
 		</main>
-	
+		
 		<hr style="border: dotted; border-color: aquamarine;">
-		<code>[-_-] EOF</code>
+		<code>[-_-] EOF</code> | <code>tags: {{tag}}</code>
 			<p>(copydown) MMXXV barnacl437.</p>
 	</body>
 </html>

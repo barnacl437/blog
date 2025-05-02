@@ -8,7 +8,7 @@ layout: layout.html
 </p>
 <hr>
 
-{% for post in collections.pst reversed %}
+{% for post in collections.article reversed %}
   <article>
     <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
     <time class="small default">{{ post.data.date | date: "%d %B %Y" }}</time>
