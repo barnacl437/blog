@@ -1,14 +1,15 @@
 ---
 title: don't ask to (cause more to) ask
-tag: not blog, advice, copypasta
+date: 2025-06-01
+tag: off-blog, advice, copypasta
 ---
 
 
 Every now and then, hanging out on *Discord/Revolt/Matrix/XMPP/Signal/etc.*, you may see someone popping up asking at the general chat or some bulletins uttering something similar to the following: 
 
 
-> AKinkyDude9169: anyone around there?
-> AKinkyDude9169: hello?
+> AKinkyDude9169:  anyone around there?
+> AKinkyDude9169:  hello?
 
 
 Well, what a concise opening right? No. It's just too short. Yes. If you are trying to ask for help, there are a heap of reasons many people will *not* choose to throw a look at your message. This is probably what the guy mean:
