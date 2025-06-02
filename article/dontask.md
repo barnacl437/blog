@@ -35,7 +35,7 @@ So, short as said, don't ask to (cause more to) ask. Just ask. That's it.
 
 ---
 
-*inspired by [Don't ask to ask](https://dontasktoask.com/), a web article that took a whole domain to stay in, which in turn "stole" from [this article](https://solhsa.com/dontask.html) at Sol_HSA. This is greatly paraphrased in a non programming context so that it will not look like a blatant copy.*
+*inspired by [Don't ask to ask](https://dontasktoask.com/), a web article that took a whole domain to stay in, which in turn "stole" from [this article](https://solhsa.com/dontask.html) at Sol_HSA. This is greatly paraphrased in a non programming context with pseudo-programming examples so that it will not look like a blatant copy.*
 
 a part of my off-blog series of articles.
 
