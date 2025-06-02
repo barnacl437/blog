@@ -27,7 +27,8 @@ or rewrite it to suit your need. Please at least add something detailed if you a
 
 Giving more details into your questions can depend on what you need help with, for example with coding or with your homework, or you are doing in a project:
 
-> AKinkyDude9169: hi all. i am pretty much a Rust newb, and now i just want to ask what's wrong with my code? here is the code btw ```code snippet code snippet code snippet code snippet code snippet code snippet code snippet code snippet code snippet code snippet```
+> AKinkyDude9169: hi all. i am pretty much a Rust newb, and now i just want to ask what's wrong with my code? here is the code btw 
+> ```code snippet code snippet code snippet code snippet code snippet code snippet code snippet code snippet code snippet code snippet```
 
 If you feel too lazy to try asking adequately, then there might be no reason people will likely try to help you. Don't cause more questions to the convo. Don't raise more scepticism in whether what your purpose is. It might waste more of your time, or other's time.
 
