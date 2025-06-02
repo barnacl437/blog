@@ -1,5 +1,5 @@
 ---
-title: don't ask to (cause more to) ask
+title: don't ask to... ask
 date: 2025-06-01
 tag: off-blog, advice, copypasta
 ---
@@ -15,13 +15,17 @@ Just to say, wandering around on internet chats seeking for someone to talk, or 
 > AKinkyDude9169: need help lmao
 
 
-Well, what a concise opening right? No. It's just too short. Yes. If you are trying to ask for help, there are a heap of reasons many people will *not* choose to throw a look at your message. This is probably what the guy mean:
+Well, what a concise opening right? No. It's just too short. It's missing a lot. Yes. Really.
+
+If you are trying to ask for help, there are a heap of reasons many people will *not* choose to throw a look at your message. This is probably what the guy mean:
 
 
 > AKinkyDude9169: anyone around here willing to hear me out on this problem im having so that i can reckon a way to solve it?
 
 
-or rewrite it to suit your need. Please at least add something detailed if you at least want people to engage in the convo in the first place. If you feel too lazy to try asking adequately, then there might be no reason people will likely try to help you. Don't cause more questions to the convo. Don't raise more scepticism in whether what your purpose is. It might waste more of your time, or other's time.
+or rewrite it to suit your need. Please at least add something detailed if you at least want people to engage in the convo in the first place. In the first example, writing like that will make people think it's just a casual greeting or a simple drop-in, without a real sign of asking (or even if it is anyways, won't be enough to whet people's appetite).
+
+If you feel too lazy to try asking adequately, then there might be no reason people will likely try to help you. Don't cause more questions to the convo. Don't raise more scepticism in whether what your purpose is. It might waste more of your time, or other's time.
 
 So, short as said, don't ask to (cause more to) ask. Just ask. That's it.
 
