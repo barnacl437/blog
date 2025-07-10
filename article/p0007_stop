@@ -1,15 +1,15 @@
 ---
-draft_article_delete_this_breaker_when_youre_set!title: programming approach on a (thought) non-programmable calculator
+!draft_article_delete_this_breaker_when_youre_set!title: programming approach on a (thought) non-programmable calculator
 date: 2025/6/15
 tag: blog, tweak, tech, calculator
 ---
 
-I currently got on-hand a *Casio fx-580VN X* (which is not mine; it's my little brother's) for helping in doing, say, 
-from most basic calculations to solving equations, integral, and calculus stuff in general. 
+I currently got on-hand a *Casio fx-580VN X* (which is not mine; it's my little brother's) for helping in doing, say,
+from most basic calculations to solving equations, integral, and calculus stuff in general.
 
 -----
 
-*If you don't have an idea of what it is, then well: this is probably a region-exclusive, feature-cut(?) version of 
+*If you don't have an idea of what it is, then well: this is probably a region-exclusive, feature-cut(?) version of
 fx-570EX, or anything of similar form. **VN** *probably means* it is purposed for marketing in Vietnam.*
 
 -----
@@ -17,6 +17,3 @@ fx-570EX, or anything of similar form. **VN** *probably means* it is purposed fo
 For most of the time, I consider the little boy just a mere tool for doing stuff like those.
 It has no I/O ports, no programming support, no internal storage. Only a locked-down low-level
 utility. Which is a little piece of boring, well -- it will be banned from exams if it does have those.
-
-
-
