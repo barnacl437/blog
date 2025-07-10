@@ -8,7 +8,7 @@ yeah it's me again. on the fun right now (not very). also, i am out of every exa
 
 ---
 
-also, from this post, i'll name the articles the different way--not using the numbers anymore,
+> also, from this post, i'll name *the article files* (shown on url) the different way--not using the numbers anymore,
 but a (sometimes subtracted) corresponding title. it would be a fuss to remember which number
 was for the last post, and sometimes numeral skippers may occur.
 
