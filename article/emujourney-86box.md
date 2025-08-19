@@ -30,7 +30,7 @@ With a slight taste in gaming, given my host specs, 3D games are destined to run
 
 ![](https://raw.githubusercontent.com/barnacl437/Barnacl437/b162e19630722357337beaef80c7ddee0d25ebab/misc/pic-hoster/blog/Monitor_1_20250819-114121-118.png)
 
-Beyond all that, just using it to browse the old net is somewhat a genuine vibe. In the above picture is me digging a 3D Realm's ftp server.
+Beyond all that, just using it to browse the old net is somewhat a genuine vibe. In the above picture is me digging a 3D Realm's ftp server, connected via [Protoweb](https://protoweb.org) proxy.
 
 ![](https://github.com/barnacl437/Barnacl437/blob/main/misc/pic-hoster/blog/Screenshot_2025-08-19_18-05-04.png?raw=true)
 
