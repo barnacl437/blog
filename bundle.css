@@ -8,12 +8,16 @@ meta {
     css-version: 1.6b2;
   }
   
+
+
+
   @font-face {
     font-family: 'PT Serif';
     src: url('/assets/PTSerif-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+    font-size: 18px;
   }
   
   @media (min-width: 800px) {
@@ -70,9 +74,14 @@ meta {
       margin: auto;
       }
     
-    img {
-      width: 99%;
-    }
+   
+  img {
+    max-height: 50vh;       
+    width: auto;            
+    object-fit: contain;    
+    transition: max-height 0.3s ease;
+  }
+
     }
   
   /* unvisited link */
@@ -169,11 +178,10 @@ meta {
   }
 
   img {
-    margin: auto;
-    width: 95%;
-    height: 50% !important; 
-    display: block;
-    object-fit: contain;
+    max-height: 50vh;       
+    width: auto;            
+    object-fit: contain;    
+    transition: max-height 0.3s ease;
   }
 
   blockquote {
@@ -186,6 +194,13 @@ meta {
   .mono {
     font-family: "Intel One Mono", monospace; src: url('IntelOneMono-Regular.ttf');
   }
+
+/* pointer set */
+body {
+  cursor: url(/pictures/pointset/ptre/pointre.png), default;
+  cursor: url(/pictures/pointset/ptre/pointre-point.png), pointer;
+  cursor: url(/pictures/pointset/ptre/pointre-text.png), text; 
+}
 
 /* -------------------------  */
 /* -------------------------  */
@@ -266,30 +281,32 @@ pre,
 code,
 samp,
 kbd {
-  display: block; /* ensure block-level styling for consistent width */
-  padding: 4px;
-  color:white;
+  display: block;
+  padding: 2px;
+  color: white;
   background-color: #040b31;
-  margin-bottom: 16px;
   font-size: 14px;
   line-height: 1;
   border: 1px solid #ccc;
   border-radius: 4px;
-  overflow-x: auto; /* enable horizontal scrolling for long code lines */
-  font-family: "Intel One Mono", monospace; /* use a monospace font */
+  overflow-x: auto;
+  font-family: "Intel One Mono", monospace;
+  margin: 0; /* Remove default margins */
+  white-space: pre; /* Preserve formatting without extra space */
 }
 
-/* style for inline code snippets */
+/* Inline code */
 :not(pre) > code {
-  display: inline-block;  
-  padding: 1px 1px;
+  display: inline-block;
+  padding: 1px 3px; /* Slightly more horizontal padding */
   font-size: 14px;
-  color:white;
+  color: white;
   background-color: #040b31;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  margin: 0 0px; /* adjust spacing as needed */
+  border-radius: 2px;
+  margin: 0 1px;
   font-family: "Intel One Mono", monospace;
+  line-height: 1.2; /* Better vertical alignment */
 }
 /* end code block */
 
