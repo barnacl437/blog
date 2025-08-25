@@ -13,7 +13,7 @@ meta {
 
   @font-face {
     font-family: 'PT Serif';
-    src: url('/assets/PTSerif-Regular.ttf') format('truetype');
+    src: url('/assets/stuff/PTSerif-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -25,7 +25,7 @@ meta {
     background-color: rgb(1, 8, 20);
     color: rgb(255, 255, 255);
     font-family: 'PT Serif', serif;
-    width:59.69%;
+    width:65%;
     text-align:justify;
     margin: auto;
     }
@@ -192,7 +192,7 @@ meta {
   }
 
   .mono {
-    font-family: "Intel One Mono", monospace; src: url('IntelOneMono-Regular.ttf');
+    font-family: "Intel One Mono", monospace; src: url('/assets/stuff/IntelOneMono-Regular.ttf');
   }
 
 /* pointer set */
