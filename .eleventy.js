@@ -1,21 +1,29 @@
 module.exports = function(eleventyConfig) {
   // passthru copy
   eleventyConfig.addPassthroughCopy("bundle.css");
-  eleventyConfig.addPassthroughCopy("/assets/");
- 
-  // European-style date formatter (DD/MM/YYYY)
-  eleventyConfig.addFilter('readableDate', (dateObj) => {
-    if (!(dateObj instanceof Date)) {
-      console.warn('Invalid date:', dateObj);
-      return '';
+  eleventyConfig.addPassthroughCopy("./assets");
+
+  eleventyConfig.addFilter("readableDate", dateObj => {
+    // Check if the input is a valid date.
+    if (!dateObj instanceof Date) {
+      return dateObj; // Return original value if not a Date object
     }
-    
-    const day = String(dateObj.getDate()).padStart(2, '0');
-    const month = String(dateObj.getMonth() + 1).padStart(2, '0');
-    const year = dateObj.getFullYear();
-    
-    return `${day}/${month}/${year}`;
+
+    // Use a standard format for dates.
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return dateObj.toLocaleDateString(undefined, options);
   });
+  
+  return {
+    dir: {
+      // The directory containing your templates (markdown, html, etc.).
+      input: "./",
+      // The directory where your final, built site will be saved.
+      output: "_site"
+    }
+  };
+
+
 
   // Reliable newest-first sorting
   eleventyConfig.addCollection("sortedPosts", function(collectionApi) {
