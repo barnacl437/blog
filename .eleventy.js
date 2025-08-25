@@ -1,5 +1,8 @@
 module.exports = function(eleventyConfig) {
+  // passthru copy
   eleventyConfig.addPassthroughCopy("bundle.css");
+  eleventyConfig.addPassthroughCopy("/assets/");
+ 
   // European-style date formatter (DD/MM/YYYY)
   eleventyConfig.addFilter('readableDate', (dateObj) => {
     if (!(dateObj instanceof Date)) {
