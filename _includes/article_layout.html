@@ -6,11 +6,15 @@
 		<style>
 			@import url(/bundle.css);
 		</style>
-		<title>{{ title | default: "barn blog" }}</title>
+		<title>{{ title | default: "untitled" }} // barnacl437's blog corner</title>
 	</head>
 	<body>
 
 		<header>
+			<table>
+				<tr> <th> <p>blog corner</p></th> </tr>
+				<tr><th></th></tr>
+			</table>
 			<p><a href="https://barnacl437.is-a.dev">main website</a> .
 				 <a href="/index.html">blog index</a> | <code>{{ page.url }}</code></p>
 			<h1>{{ title | default: "_construction_page" }}</h1>

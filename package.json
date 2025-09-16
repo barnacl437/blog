@@ -1,6 +1,6 @@
 {
   "name": "barn-blog",
-  "version": "1.04b",
+  "version": "1.04b2",
   "description": "a blog by barnacl437. code taken from eleventy's '6 minutes to build a blog' tutorial.",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
