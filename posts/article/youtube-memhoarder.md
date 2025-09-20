@@ -1,11 +1,8 @@
 ---
-title: ;
-
+title: YouTube is a memory hoarder for me right now...
+date: 2025-09-20
 tag: blog, tech, memory hoarder, memory leak, memleak (perhaps?)
 ---
-# YouTube is a memory hoarder for me right now...
-
-### Note: this is a public draft post. Contents written in this post should not be considered final words.
 
 
 This has been a real issue on my side for several months. Perhaps much longer than that but I only started complaining about it in a recent time. 
@@ -26,3 +23,11 @@ Talking the said Reddit thread, I found a comment that explained something:
 >
 > **Prestigious_Cherry_4** ([Comment on Sat, 2 Nov 2024](https://www.reddit.com/r/firefox/comments/1ghl7ik/comment/luzoody/))
 
+I myself also did a test by disabling uBlock and see. It actually did reduce a bit, however I am enabling it back in and browse for a while, it's keeping around 350MB. Perhaps there is actually an issue, but in another aspect to say. 
+
+After that 4GB surge, I had to temporarily migrate to a Chrome-based browser ([BrowserOS](https://www.browseros.com/)) in order to watch YouTube (I actually felt safer there with an average RAM usage of 300MB). Now I just went back to Firefox and it appears that it just went back to its "ordinary" state.
+
+![](/assets/pics/Screenshot%20from%202025-09-20%2022-00-18.png)
+*yes, now with two of them.*
+
+So probably YouTube will not hoard my poor laptop's resource for now. Still, I will have to constantly monitor its memory use for a while when possible to see that what is really causing it to consume way too many RAM.
