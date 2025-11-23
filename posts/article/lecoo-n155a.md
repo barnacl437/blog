@@ -38,8 +38,9 @@ On the lid, you can see that it looks incredibly minimal, with no other details 
 
 ![alt text](/assets/pics/lecoo-n155a-right-side.png)
 
-*This picture would complete covering all five sides of the device. For a list of connection ports, see the table way way below.*
+*This picture would complete covering all five sides of the device. I may or may not picture the bottom side thinking it's not much important.*
 
+The keyboard (see the first picture) has a 65% layout with Home, End and Pg Up/Dn cut off. As a trade-off, the chiclet-form keys are larger and more comfortable to type on. Generally, I can compare this laptop to a MacBook Pro in appearance.
 
 ---
 
