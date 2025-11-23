@@ -17,6 +17,9 @@ This is the Lecoo Pro 14 (also known as its model name N155A). You will probably
 IDK what it is. Maybe it's a new brand? I've heard that it's sold within China, but I have no idea why did Lenovo supplied these to a
 retailer located outside China (I bought it in a store in Hanoi).
 
+To say, Lecoo is technically a subbrand owned by Lenovo, however there are absolutely no appearance or trace of Lenovo branding on this device. Yet again
+on the Chinese Lenovo website there are entries pertaining to, or having information about this device.
+
 I was impressed by how it managed to be incredibly thin and lightweight, while having some power sufficient for me to do a plethora of works.
 
 Visually looking, it is sleek and thin. I can even put it on the stool and work with it all days long.
