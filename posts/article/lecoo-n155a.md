@@ -11,16 +11,16 @@ Chinese stuff are world-class or very best, but honestly, this device just someh
 
 ## introduction / visual look
 
-![front side of Lecoo N155A](/assets/pics/lecoo-n155a-front.jpg)
-
 This is the Lecoo Pro 14 (also known as its model name N155A). You will probably have never heard of the Lecoo subbrand before. Me too. 
 IDK what it is. Maybe it's a new brand? I've heard that it's sold within China, but I have no idea why did Lenovo supplied these to a
 retailer located outside China (I bought it in a store in Hanoi).
 
 To say, Lecoo is technically a subbrand owned by Lenovo, however there are absolutely no appearance or trace of Lenovo branding on this device. Yet again
-on the Chinese Lenovo website there are entries pertaining to, or having information about this device.
+on the Chinese Lenovo website there are entries pertaining to, or having information about this device. It is intended to be sold exclusively in China, so you will not be able to find a reliable information source in English, anywhere. I, having owned this device, will attempt to provide insights about it in this blog post.
 
 I was impressed by how it managed to be incredibly thin and lightweight, while having some power sufficient for me to do a plethora of works.
+
+![front side of Lecoo N155A](/assets/pics/lecoo-n155a-front.jpg)
 
 Visually looking, it is sleek and thin. I can even put it on the stool and work with it all days long.
 
@@ -70,12 +70,12 @@ Battery | 80Wh with PD3.0 charging (i.e. 100W max. thruput, estimated usage time
 Dimensions | 343 x 235 x 14 (millimetres), or 13.5 x 9.3 x 0.55 in
 Weight  | 1.43kg (3.1lbs)
 
-(table styling is broken for the time being. sorry.)
 
 Okay. Now what do you think if an H-suffix CPU was placed in a laptop that was supposed to use a U-suffix one (as I assume so)? 
 I mean, they did it. A real Ryzen powerhouse inside the chassis of a normal office laptop. 
+And note the unusual SKU naming. This is a CPU marketted by AMD for domestic China market, thus used by domestic devices like this one.
 The CPU scored about 6400 in a CPU-Z benchmark, which you can see the result 
-[here](https://valid.x86.fr/m8gfhs). It was on par with the 8845HS. 
+[here](https://valid.x86.fr/m8gfhs). It was on par with the 8845HS. It was said to be identical to the 8745H, which is also a China domestic marketted CPU.
 
 Beside just sitting around and doing benchmark, I have been using it right now in my everyday life. The memory boon seems like a miracle. No apps would 
 ever use up to 32GB of installed memory. For most of the time, Windows and the boys' average usage is about half the way (15-16GB).
