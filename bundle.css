@@ -3,10 +3,13 @@
 /* this is a comprehensive styling sheet for barnacl437's webpage. May include messy and testing codes. */
 /* period is class; hash (#) is id! */
 
+/*
+* The 'meta' selector is not valid CSS. It looks like a comment, so it has been commented out.
+* The content of the 'meta' selector is also not valid.
 */
 /*
 meta {
-  css-name: barncss-blog;
+  css-name: barncss;
   css-version: 1.6b2;
 }
 */
@@ -52,12 +55,22 @@ meta {
 @media (min-width: 800px) {
   body {
     background-color: rgb(1, 8, 20);
-    width: 72%;
-    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    width:65%;
+    text-align:justify;
     margin: auto;
   }
 }
 
+/* input styling */
+input, table {
+  color:aqua;
+  background-color: #040b31;
+  /* Use the simplified font-family name with a generic fallback. */
+  font-family: 'Intel One Mono', monospace;
+  width:40%
+}
 
 /*
 input[type="text"]:active, input[type="text"]:hover, input[type="text"]:focus {
@@ -71,6 +84,7 @@ input[type="text"]:active, input[type="text"]:hover, input[type="text"]:focus {
 button {
   color: aquamarine;
   background-color: rgba(0, 110, 255, 0.555);
+  /* Use the simplified font-family name with a generic fallback. */
   font-family: 'Intel One Mono', monospace;
 }
 
@@ -86,7 +100,7 @@ button:hover {
     color: rgb(255, 255, 255);
     /* Use the simplified font-family name. */
     font-family: 'PT Serif', sans-serif;
-    width: 98%;
+    width:96%;
     text-align:justify;
     margin: auto;
   }
@@ -207,8 +221,13 @@ blockquote {
   font-family: 'Intel One Mono', monospace;
 }
 
-
-
+/*
+* The 'cursor' property can't handle multiple URL values in a single declaration.
+* To use different cursors, you would apply them to specific elements or states, e.g.,
+* a:hover { cursor: url(...); }
+* input[type="text"] { cursor: url(...); }
+* I've removed the conflicting body rules below.
+*/
 /* pointer set */
 /*
 body {
@@ -476,12 +495,11 @@ textarea {
   color: #b0b0b0;
 }
 
-
 input {
   color:aqua;
   background-color: #040b31;
   font-family: 'Intel One Mono', monospace;
-  width: 100%;
+  width:40%
 }
 
 table {
@@ -490,6 +508,7 @@ table {
     font-family: 'Intel One Mono', monospace;
     width: 100%;
     display: block; 
+    overflow-x: auto;
 }
 
 /* --- end generated code --- */
