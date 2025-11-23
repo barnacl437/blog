@@ -1,5 +1,5 @@
 ---
-title-wip: "Lecoo N155A: a look at Lenovo's China-exclusive laptop"
+title: "Lecoo N155A: a look at Lenovo's China-exclusive laptop"
 tag: blog, tech, review, laptop, lenovo
 ---
 So recently, I and my dad agreed on purchasing a new laptop for me to study in college. 
@@ -9,6 +9,8 @@ They do have a lot of Lenovo-branded laptop computers, as, well,
 it's essentially a Chinese company (its native name is Lianxiang/联想). I am not a Chinese myself, and clearly not trying to say 
 Chinese stuff are world-class or very best, but honestly, this device just somehow got into my impression.
 
+## introduction / visual look
+
 ![front side of Lecoo N155A](/assets/pics/lecoo-n155a-front.jpg)
 
 This is the Lecoo Pro 14 (also known as its model name N155A). You will probably have never heard of the Lecoo subbrand before. Me too. 
@@ -17,7 +19,30 @@ retailer located outside China (I bought it in a store in Hanoi).
 
 I was impressed by how it managed to be incredibly thin and lightweight, while having some power sufficient for me to do a plethora of works.
 
-At first, I will make a table of tech specifications I've collected about this device:
+Visually looking, it is sleek and thin. I can even put it on the stool and work with it all days long.
+
+![alt text](/assets/pics/lecoo-n155a-put-on-stool.png)
+
+The back side, as a random guy commented on a Discord chat, looks like it's inherited the design from Lenovo LOQ, a budget gaming laptop series.
+
+![alt text](/assets/pics/lecoo-n155a-back-side.png)
+
+Its cooling is a system of two fans blowing to the two different clusters of vents located behind the laptop base. I'm not surprised since the CPU it's cooling
+isn't very much an ordinary laptop CPU, which is a performant one and would likely to generate tons of heat during its operation. Usually you will see 
+a vast amount of non-gaming laptops having just a single fan cooling the CPU (of course, with heatsink and liquid conductor pipes).
+
+On the lid, you can see that it looks incredibly minimal, with no other details than just the Lecoo wordmark.
+
+![alt text](/assets/pics/lecoo-n155a-right-side.png)
+
+*This picture would complete covering all five sides of the device. For a list of connection ports, see the table way way below.*
+
+
+---
+
+## tech specs and performance
+
+Talking something more techie, here is a table of tech specifications I've collected about this device:
 
 ///     |  Tech specs 
 ------|------------------------------------------------------------------------------
@@ -63,7 +88,7 @@ recognise the GPU is which (the texture rate and pixel rate were not identifiabl
 
 But after all, it functioned like a 780M, so I will assume it's a real 780M. It could have its ID strings changed due to it sharing package with a
 market-exclusive CPU model (atm, you can't find a Ryzen 7 H 255 specification page on TechPowerUp). These details really make up well for our 
-today's story.
+today's story. I will talk about the scarcity of information later.
 
 Back to the CPU side. I've not tried video editing yet (which I will add later on), but for CPU-bound tasks, this laptop will handle just fine. 
 I tried 86Box emulator with a 1995 Pentium 75 system, and it survived with 100% emulation speed almost all the time.
@@ -75,3 +100,13 @@ and tried using any sort of upscaling methods (ie FSR) where possible. Still, it
 Black Mesa got to run pretty good on there (around 60FPS, at 2560x1600 resolution).
 
 ![alt text](/assets/pics/lecoo-n155a-blackmesa.png)
+
+As said, you can notice that the GPU is using 97% of its utilisation, while the CPU seems to be pretty laid-back with 18%.
+I would have tried more games, but haven't collected much detail about them, so expect to see some additions. 
+
+Running the device on battery, I'd expect to see around 5-6 hours of battery life during casual tasks, and maybe up to 10-11 hours if it just sits there idly. If there are some gaming, then it would reduce to somewhere under 2 hours (assuming the CPU and GPU are running under their designed TDP of 45W). 
+
+The laptop runs pretty cool also. If it isn't gaming (during when the GPU would peak 55 Celsius/135 F), usually the GPU temp is 30 Celsius (~86 F) or so (I can't monitor the CPU, as some common hw monitor software tend to miss out the sensor, but I guess it's not much higher).
+
+##
+
