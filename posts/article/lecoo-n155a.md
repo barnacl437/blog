@@ -13,22 +13,22 @@ Chinese stuff are world-class or very best, but honestly, this device just someh
 
 This is the Lecoo Pro 14 (also known as its model name N155A). You will probably have never heard of the Lecoo subbrand before. Me too. 
 IDK what it is. Maybe it's a new brand? I've heard that it's sold within China, but I have no idea why did Lenovo supplied these to a
-retailer located outside China (I bought it in a store in Hanoi).
+retailer located outside China (I bought it in a store in Hanoi for approximately *$639 US dollar*).
 
 To say, Lecoo is technically a subbrand owned by Lenovo, however there are absolutely no appearance or trace of Lenovo branding on this device. Yet again
 on the Chinese Lenovo website there are entries pertaining to, or having information about this device. It is intended to be sold exclusively in China, so you will not be able to find a reliable information source in English, anywhere. I, having owned this device, will attempt to provide insights about it in this blog post.
 
 I was impressed by how it managed to be incredibly thin and lightweight, while having some power sufficient for me to do a plethora of works.
 
-![front side of Lecoo N155A](/assets/pics/lecoo-n155a-front.jpg)
+![front side of Lecoo N155A](/assets/pics/2025/lecoo-n155a-front.jpg)
 
 Visually looking, it is sleek and thin. I can even put it on the stool and work with it all days long.
 
-![alt text](/assets/pics/lecoo-n155a-put-on-stool.png)
+![alt text](/assets/pics/2025/lecoo-n155a-put-on-stool.png)
 
 The back side, as a random guy commented on a Discord chat, looks like it's inherited the design from Lenovo LOQ, a budget gaming laptop series.
 
-![alt text](/assets/pics/lecoo-n155a-back-side.png)
+![alt text](/assets/pics/2025/lecoo-n155a-back-side.png)
 
 Its cooling is a system of two fans blowing to the two different clusters of vents located behind the laptop base. I'm not surprised since the CPU it's cooling
 isn't very much an ordinary laptop CPU, which is a performant one and would likely to generate tons of heat during its operation. Usually you will see 
@@ -36,7 +36,7 @@ a vast amount of non-gaming laptops having just a single fan cooling the CPU (of
 
 On the lid, you can see that it looks incredibly minimal, with no other details than just the Lecoo wordmark.
 
-![alt text](/assets/pics/lecoo-n155a-right-side.png)
+![alt text](/assets/pics/2025/lecoo-n155a-right-side.png)
 
 *This picture would complete covering all five sides of the device. I may or may not picture the bottom side thinking it's not much important.*
 
@@ -69,6 +69,7 @@ Camera  | 1080p webcam with physical privary shutter
 Battery | 80Wh with PD3.0 charging (i.e. 100W max. thruput, estimated usage time 5-10hrs under light load)
 Dimensions | 343 x 235 x 14 (millimetres), or 13.5 x 9.3 x 0.55 in
 Weight  | 1.43kg (3.1lbs)
+Operating System | Windows 11 Home Simplified Chinese edition (stock, gets replaced with US English upon purchase)
 
 
 For connectivity, it's got all the ports I would need. Three high-speed USB-As? Thats a good deal. And two USB-C ports too. One of them has a slower
@@ -104,7 +105,7 @@ The CPU scored about 6400 in a CPU-Z benchmark, which you can see the result
 Beside just sitting around and doing benchmark, I have been using it right now in my everyday life. The memory boon seems like a miracle. No apps would 
 ever use up to 32GB of installed memory. For most of the time, Windows and the boys' average usage is about half the way (15-16GB).
 
-![Screenshot of taskmgr showing ram usage](/assets/pics/lecoo-n155a-ram-taskmgr.png)
+![Screenshot of taskmgr showing ram usage](/assets/pics/2025/lecoo-n155a-ram-taskmgr.png)
             
 And the CPU is incredibly idle too. This would have included a few \*active\* Firefox tabs, Discord, Chrome, Visual Studio Code and some more.
 
@@ -112,7 +113,7 @@ Saying the Radeon 780M: actually, when GPU-Z (a software similar to CPU-Z for GP
  the [TechPowerUp website](https://www.techpowerup.com/gpu-specs/lookup?gpu=11a08f-1002:1900-2782:1170.BA.1024.0.0.) could not 
 recognise the GPU is which (the texture rate and pixel rate were not identifiable by the software). 
 
-![alt text](/assets/pics/lecoo-n155a-gpu-unidentifiable.png)
+![alt text](/assets/pics/2025/lecoo-n155a-gpu-unidentifiable.png)
 
 But after all, it functioned like a 780M, so I will assume it's a real 780M. It could have its ID strings changed due to it sharing package with a
 market-exclusive CPU model (atm, you can't find a Ryzen 7 H 255 specification page on TechPowerUp). These details really make up well for our 
@@ -128,14 +129,47 @@ and tried using any sort of upscaling methods (ie FSR) where possible. Still, it
 
 Black Mesa got to run pretty good on there (around 60FPS, at 2560x1600 resolution).
 
-![alt text](/assets/pics/lecoo-n155a-blackmesa.png)
+![alt text](/assets/pics/2025/lecoo-n155a-blackmesa.png)
 
 As said, you can notice that the GPU is using 97% of its utilisation, while the CPU seems to be pretty laid-back with 18%.
 I would have tried more games, but haven't collected much detail about them, so expect to see some additions. 
+
+This Radeon 780M also supports ray tracing. Well, I told ya, it's a normal 780M with 12 rt cores. But it doesn't perform good like it's a gifted 
+talent. In this Quake II RTX gameplay, I didn't expect it to reach 30fps. And yes, it didn't. AMD's ray tracing performance has been notoriously poor,
+just because it isn't GeForce RTX (yes, fuck you Nvidia proprietary dipshit). I don't hope Half-Life 2 RTX to run good on the device either.
+
+![alt text](/assets/pics/2025/lecoo-n155a-quakeii-rtx-gameplay.png)
 
 Running the device on battery, I'd expect to see around 5-6 hours of battery life during casual tasks, and maybe up to 10-11 hours if it just sits there idly. If there are some gaming, then it would reduce to somewhere under 2 hours (assuming the CPU and GPU are running under their designed TDP of 45W). 
 
 The laptop runs pretty cool also. If it isn't gaming (during when the GPU would peak 55 Celsius/135 F), usually the GPU temp is 30 Celsius (~86 F) or so (I can't monitor the CPU, as some common hw monitor software tend to miss out the sensor for this strange CPU, but I guess it's not much higher).
 
-##
+Also not to forget, sometimes it's got some weird sleeping issues on Windows 11, when you wake it up but seeing a black screen while all the LEDs are lit.
+I have to do a force reboot every time I see it happening. Though recently I did try clearing CMOS configuration and changed an ACPI setting in BIOS setup,
+and it appears to have fixed the problem.
+
+I also did upgrade BIOS. The only addition it brought is a quick power mode switcher at the press of the Fn + Q keystroke. I downloaded it from a [Chinese Lenovo help centre website](https://iknow.lenovo.com.cn/detail/429509).
+
+---
+## The bizzare Google result
+
+Yes, to the fun part. And also the primary reason why I write this blog post. It's very hard, or even unable to find English-written sources containing
+information about this device. This is what you will see when searching for "Lecoo N155A" in Australia:
+
+![alt text](/assets/pics/2025/lecoo-n155a-google-result.png)
+
+It's full of Taobao and TikTok/Douyin links lol. The only Amazon link isn't that worth-reading. It sells accessory rather than the machine itself. As
+I wrote earlier, this is like a rare thing in the Western world. There would be more Lecoo-branded products, like the new Lecoo Air 16 (N175L), but unfortunately I don't really own the device so I will not cover it in this blog post.
+
+P/S: actually you can get some lucks seeing it listed on an AliExpress store page. But I didn't buy it thru AliEx, so I'm not very sure about that. Be careful of scamming though.
+
+
+---
+## Conclusion
+
+Overall, this is a fine laptop if you prefer a highly portable, small-sized laptop, but having a relatively good processor
+and a good battery altogether. It's kind of rare to see such a mostly-non-gaming laptop to have 32GB RAM preinstalled, imo.
+And it's probably going to be less seen in the western world. That would be how bizzare it is. It reminds me of some Chinese made hardware such as the Zhaoxin KaiXian series of CPU (most notably the [KX-U6780A](https://www.tomshardware.com/features/zhaoxin-kx-u6780a-x86-cpu-tested)).
+
+But ultimately, I hope that this blog post would be useful for anyone looking for some little information about this laptop, since at the moment of writing (24 Nov 2025), you will probably not be able to find a reliable information source about the laptop outside the China (and nearby countries') border.
 
