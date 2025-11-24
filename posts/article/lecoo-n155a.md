@@ -71,11 +71,35 @@ Dimensions | 343 x 235 x 14 (millimetres), or 13.5 x 9.3 x 0.55 in
 Weight  | 1.43kg (3.1lbs)
 
 
-Okay. Now what do you think if an H-suffix CPU was placed in a laptop that was supposed to use a U-suffix one (as I assume so)? 
+For connectivity, it's got all the ports I would need. Three high-speed USB-As? Thats a good deal. And two USB-C ports too. One of them has a slower
+data transfer speed which would easily be utilised as a charging port. But in fact both would have PD 3.0 support, so whichever port you would choose
+is fine. But the said slower port (USB-C 3.2 Gen 1, 10Gbps speed) is located closer to the top, so thats probably also a manufacturer's intention.
+That is also perhaps a common location for a charging inlet.
+
+The inclusion of a microSD slot (instead of a full size SD one) and OCuLink port is also a huge plus. Given that, I've never really
+ seen a laptop including [OCuLink](https://en.wikipedia.org/wiki/PCI_Express#PCI_Express_OCuLink) port. In fact, the second version of OCuLink
+ interface (OCuLink-2) has already got the speed equivalent to a PCIe 4.0 x4 or x8 slot (8GB/s or 16GB/s). This has the potential to help users 
+ connect any peripherals that require high speed data transmission (i.e. a graphics card) to the laptop. I've seen many tinkering around with 
+ installing an eGPU to a laptop using USB-C port, but they usually have a significantly slower transfer speed. 
+
+ I don't have a full size SD card, and probably aren't going to need one, while already have an 8 GB microSD card. The microSD card slot would at least
+ play as a placeholder for my microSD card, since my phone can't hold a mSD card while having two SIM cards (the SIM2 and mSD slot are shared).
+ I suppose that the mSD slot would support SDXC or SDUC, so it's also a good way to upgrade your laptop's storage while in instant need, without
+ using a portable hard disk drive which require connecting to a USB port (that seems untidy for me seeing a wiring fuss being plugged in which 
+ would seem to make my machine less portable).
+
+There is also a RJ45 Ethernet port, supporting 1Gbps max speed. Not many thin notebooks include this port anymore nowadays, so it's a plus for me also.
+I just like all the ports presenting there, although I would rarely use them, but just in case if I need any. I would tend to rely on the Wi-Fi connection
+all the time. Wi-Fi 6E seems like what I will need, though most of the time the 5GHz band is a thin wall away from me and I wouldn't get a great speed, just
+merely enough for watching 1080p YouTube and some torrent downloading. Bluetooth works just fine and supports multiple simultanously connecting devices (two or three, in my case).
+
+
+Okay, talking the CPU. Now what do you think if an H-suffix CPU was placed in a laptop that was supposed to use a U-suffix one (as I assume so)? 
 I mean, they did it. A real Ryzen powerhouse inside the chassis of a normal office laptop. 
 And note the unusual SKU naming. This is a CPU marketted by AMD for domestic China market, thus used by domestic devices like this one.
 The CPU scored about 6400 in a CPU-Z benchmark, which you can see the result 
 [here](https://valid.x86.fr/m8gfhs). It was on par with the 8845HS. It was said to be identical to the 8745H, which is also a China domestic marketted CPU.
+
 
 Beside just sitting around and doing benchmark, I have been using it right now in my everyday life. The memory boon seems like a miracle. No apps would 
 ever use up to 32GB of installed memory. For most of the time, Windows and the boys' average usage is about half the way (15-16GB).
@@ -92,7 +116,8 @@ recognise the GPU is which (the texture rate and pixel rate were not identifiabl
 
 But after all, it functioned like a 780M, so I will assume it's a real 780M. It could have its ID strings changed due to it sharing package with a
 market-exclusive CPU model (atm, you can't find a Ryzen 7 H 255 specification page on TechPowerUp). These details really make up well for our 
-today's story. I will talk about the scarcity of information later.
+today's story. I will talk about the scarcity of information later. Obtw, you can install AMD's Adrenalin software and in most case, the
+iGPU will happily adopt it.
 
 Back to the CPU side. I've not tried video editing yet (which I will add later on), but for CPU-bound tasks, this laptop will handle just fine. 
 I tried 86Box emulator with a 1995 Pentium 75 system, and it survived with 100% emulation speed almost all the time.
@@ -110,7 +135,7 @@ I would have tried more games, but haven't collected much detail about them, so 
 
 Running the device on battery, I'd expect to see around 5-6 hours of battery life during casual tasks, and maybe up to 10-11 hours if it just sits there idly. If there are some gaming, then it would reduce to somewhere under 2 hours (assuming the CPU and GPU are running under their designed TDP of 45W). 
 
-The laptop runs pretty cool also. If it isn't gaming (during when the GPU would peak 55 Celsius/135 F), usually the GPU temp is 30 Celsius (~86 F) or so (I can't monitor the CPU, as some common hw monitor software tend to miss out the sensor, but I guess it's not much higher).
+The laptop runs pretty cool also. If it isn't gaming (during when the GPU would peak 55 Celsius/135 F), usually the GPU temp is 30 Celsius (~86 F) or so (I can't monitor the CPU, as some common hw monitor software tend to miss out the sensor for this strange CPU, but I guess it's not much higher).
 
 ##
 
