@@ -1,5 +1,6 @@
 ---
 title: "Lecoo N155A: a look at Lenovo's China-exclusive laptop"
+date: 2025-11-24
 tag: blog, tech, review, laptop, lenovo
 ---
 So recently, I and my dad agreed on purchasing a new laptop for me to study in college. 
