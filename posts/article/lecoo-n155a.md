@@ -49,10 +49,11 @@ The keyboard (see the first picture) has a 65% layout with Home, End and Pg Up/D
 
 Talking something more techie, here is a table of tech specifications I've collected about this device:
 
-///     |  Tech specs 
+Items     |  Details 
 ------|------------------------------------------------------------------------------
 CPU     | AMD Ryzen 7 H 255 (Zen 4, codenamed Hawk Point, 8c/16t, base 3.8GHz, up to 4.9GHz, 16MB L3 cache) 
 ...     | (Possibly a [Ryzen 7 8845HS](https://www.techpowerup.com/cpu-specs/ryzen-7-8845hs.c3400) equivalent?)
+...     | (Edit: it's actually a [Ryzen 7 260](https://www.techpowerup.com/cpu-specs/ryzen-7-260.c4010) w/out XDNA NPU)
 GPU     | AMD Radeon 780M (RDNA 3.0, codenamed Phoenix, 12 CUs, ~2.7GHz clock)
 RAM     | 32GB DDR5 5600MT/s (Techwinsemi/Micron chip), dual channel, support up to 96GB
 SSD     | 1TB PCIe Gen 4 NVMe SSD (Yangtze Memory-branded, 1/2 slots used, up to 8TB)
