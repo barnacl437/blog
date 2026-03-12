@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     return dateObj.toLocaleDateString(undefined, options);
   });
+
   
   return {
     dir: {
@@ -45,3 +46,5 @@ module.exports = function(eleventyConfig) {
   });
 };
 
+// footnote: these are generated codes used to fix the article sorting system by newest first. 
+// feel free to copy this and optimize on your own.
