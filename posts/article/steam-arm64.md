@@ -6,7 +6,7 @@ tag: blog, steam, arm64, aarch64, gaming, linux
 > This post is under construction. Contents are subject to change. Estimated writing date NaN-NaN days.
 
 > \\\Post ideas:
-> introduction, detail, cite relevant sources (social media included)
+> introduction, detail, proton arm release silently, focus on steam arm build etc etc, cite relevant sources (social media included)
 >
 > (have to write this to note important todos, dont judge me lmao)
 ---
