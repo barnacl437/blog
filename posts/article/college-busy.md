@@ -17,3 +17,4 @@ believe it or not, i also feel python a bit hard to me. getting started in just 
 
 well, anyways, its about less than two hours until i take the first final exam. thats all i want to tell. have a nice day.
 
+(edit on 21 April: well, i failed two subjects. oops. well that's fine, i'll try again better.)
