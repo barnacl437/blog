@@ -7,6 +7,8 @@ tags: steam, valve, debian, jessie, analysis, de-steam
 > post idea draft (clean it after posting lmao pls)
 
 > architecture yappers (explain how things dont work properly anymore), installation step (just choose auto install), de-steaming procedure, desktop showcase, final words.
+
+> obtw plsea add imgaes its too text walled.
 ---
 
 Now. Valve is making people hyped on their upcoming Steam Machine (second-gen) and a new VR headset called Frame, after their sucessful Steam Deck.
