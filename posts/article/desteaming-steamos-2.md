@@ -17,6 +17,7 @@ But what most people weren't aware of: they're all powered by SteamOS 3.0, which
 
 I wouldn't have time to go deep into this, but old releases of SteamOS was meant to be installed on the first-generation Steam Machines, made by OEMs like Asus or Gigabyte, and Valve licensed the OS to them. It wasn't a success for Valve, and they seemed to learn from their lessons.
 
+In 2022, Steam introduced a huge revamp for the big picture (its primary GUI, tailored for controller navigation). This change was meant for the new SteamOS 3.0 which runs on the Steam Deck released that year. In another side, it also inevitably broke how old SteamOS versions work. If you have installed them today, you will see that it will never get to the big picture. You will stare at a black screen with an occasionally showing chunky mouse cursor. So far I've known no workaround to make the new UI work on old versions, and Jessie package repositories are falling behind the more later Debian releases.
 
 So now, I decided to take it apart. Or... more like trying to convert it into a familiar Gnome desktop which is behind all things about what you see in the big picture mode. Right now I have Brewmaster installed so let's get started.
 
