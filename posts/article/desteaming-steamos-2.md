@@ -28,8 +28,9 @@ In 2022, Steam introduced a huge revamp for the big picture (its primary GUI, ta
 So now, I decided to take it apart. Or... more like trying to convert it into a familiar Gnome desktop which is behind all things about what you see in the big picture mode. Right now I have Brewmaster installed so let's get started.
 
 <details>
-<summary>A lil disclaimer if you care...</summary>
-Oh, and before going in... yeah I have Google Gemini assisted in doing this work. But I tried to not __blindly copying__ a single word made by AI. I am trying to paraphrase its explanation only. I'm still learning about how stuff works everyday, and doing that with a responsible usage of AI.
+<summary>A lil thing if you care...</summary>
+bummer<br>
+just kidding i was testing some new css colouring. looks good innit
 </details>
 
 ## the thing behind your console-ish 10 foot gui
@@ -44,26 +45,30 @@ SteamOS has its own X11 compositor `steamos-compositor` located at `/usr/bin/`, 
 
 Oh let's not forget plymouth which shows a funny SteamOS splash screen for you to see so that you think Valve is a madlad for making a totally-not-like-any-other-Linux-distros OS (just kidding but im sure most non tech savvy people are like that. I can't make a distro myself so feel free to count me in).
 
-There are several other `steamos-*` related executables, but these aforementioned things are mostly what undertake the bootup and primary operation. From an end user perspective, they are totally invisible, in order to maintain a hybrid feel of a console interface which has a funny desktop behind you can use as a normal PC. 
+There are several other `steamos-*` related executables, but these aforementioned things are mostly what undertake the bootstrapping and primary operation. From an end user perspective, they are totally invisible, in order to maintain a hybrid feel of a console interface which has a funny desktop behind you can use as a normal PC. 
 
 ## getting the hand dirty
 
 Now I have installed SteamOS, given I have chosen Automated Install and waited patiently until it reboots several times, there's a time when it asks you to *choose bootloader path* (just type `/dev/sda`, or the first example in the dialogue screen), and *choose an action* after the Clonezilla program performs a disk clone, just select reboot. You will be greeted with a black screen. Well, cuz, yknow, it doesnt work.
 
-![alt text](/assets/pics/steamos-1.png)
+![alt text](/assets/pics/2026/steamos-1.png)
 
 
 Press Ctrl-Alt-[anything from F2-F6]. Login with user `desktop`. It doesn't have a password. You are now at the terminal, where you get things to happen.
 
 The LightDM primary config file (`/etc/lightdm/lightdm.conf`) is used to grant the `steamos` user and the compositor a seat to be started at setup. They seems to choose to hardcode all their configurations there to reduce further fusses.
 
-Using `grep -r "autologin-user" /etc/lightdm/` should return several lines with `autologin-user`, which one of them should say `lightdm.conf:autologin-user=steam`. Open `lightdm.conf` (don't forget the full path) with your favourite editor as sudo, look for `autologin-user` again (Tip: search the `Seat configuration` string), and change `steam` to `desktop`. Also change the `user-session` below it, to `gnome`, or another desktop environment you have manually installed before.
+Using `grep -r "autologin-user" /etc/lightdm/` should return several lines with `autologin-user`. 
 
-Optional: In case if you see the seat section reading like `#[Seat:*]`, change it to `[Seat:0]` and add these below:
+![alt text](/assets/pics/2026/steamos-2.png)
+
+Hmm... doesn't seem like anything. Now open `lightdm.conf` (don't forget the full path) with your favourite editor as the `sudo` right, i.e. `sudo nano /etc/lightdm/lightdm.conf`, look for `Seat configuration` string, and if you see the seat section reading like `#[Seat:0]`, remove the hash ('#') and add these below:
+
 ```conf
 autologin-user=desktop
 user-session=gnome
 ```
+<mark>Just so you know: anything beyond changing this LightDM configuration file is optional.</mark>
 
 Now you can happily remove the `steamos-compositor` using apt if you want.
 
@@ -71,3 +76,30 @@ OBTW, do not run `sudo apt remove steamos-*`. This will also involve LightDM to 
 
 Now do a `sudo apt-get autoremove` to remove things that you don't need (some specialized drivers and libraries). 
 
+If you want a normal console bootup, just remember these steps and comment out these changes by adding the hash ('#') in the leftmost of each line. But hey, since its broken now, you might not want to even do that.
+
+---
+
+And it's the moment of truth: type `sudo reboot` for a thrilling feel.
+
+![alt text](/assets/pics/2026/steamos-3.png)
+
+Tu tu tu duh (~~max verstappen~~ /j). So here you go, that's the SteamOS desktop. Don't think it will have any use today, as it is based on an old Debian base, and any repositories for it might have gone into the legacy phase.
+
+The old Gnome 3 looking gave me a sense of nostalgia, with highly skeuomorphic, Android 4.x-like UI elements.
+
+![alt text](/assets/pics/2026/steamos-4.png)
+![alt text](/assets/pics/2026/steamos-5.png)
+
+There is Firefox 60.7.0esr (extended support release) preinstalled, among other stuff.
+
+It's a bit broken though... many websites doesn't show properly.
+
+![alt text](/assets/pics/2026/steamos-6.png)
+
+
+## conclusion
+
+And well that's it. Just a lil thing I discovered during my most busy hours and then spared it to write my blog in a more free time. I'm personally still looking towards the Steam Machine release, as well as whether Valve will decide to grant OEMs the OS licence to help them produce their own models of Steam Machine, just like the old days...
+
+I'm sure that Valve should have a different move today. But anyway, a little blast-to-the-past plus free time tinkering.
