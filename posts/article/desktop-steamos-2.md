@@ -1,7 +1,7 @@
 ---
-title: De-Steaming SteamOS 2.0 (Brewmaster)
+title: Getting the desktop in SteamOS 2.0 (Brewmaster)
 date: 2026-05-16
-tags: steam, valve, debian, jessie, analysis, de-steam
+tags: steam, valve, debian, jessie, analysis, gnome
 ---
 
 
@@ -97,3 +97,5 @@ It's a bit broken though... many websites doesn't show properly.
 And well that's it. Just a lil thing I discovered during my most busy hours and then spared it to write my blog in a more free time. I'm personally still looking towards the Steam Machine release, as well as whether Valve will decide to grant OEMs the OS licence to help them produce their own models of Steam Machine, just like the old days...
 
 I'm sure that Valve should have a different move today. But anyway, a little blast-to-the-past plus free time tinkering.
+
+I originally titled this article "De-Steaming SteamOS[...]", but given that I've just made little efforts to automatically log into a working desktop, I shouldn't consider it a De-Steaming process. Would like to make a real De-Steaming article right now, but I'm afraid I just don't have much time. So that's pretty much it.
