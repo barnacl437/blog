@@ -1,7 +1,7 @@
 ---
 title: Getting the desktop in SteamOS 2.0 (Brewmaster)
 date: 2026-05-16
-tags: steam, valve, debian, jessie, analysis, gnome
+tag: steam, valve, debian, jessie, analysis, gnome
 ---
 
 
