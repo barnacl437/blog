@@ -19,6 +19,7 @@ This would probably take a few consecutive days to a week if I even got that muc
 - Re-design the blog page and performing partial content migration<sup>[1]</sup>
 - Edit the old home page, remark its state as archived/legacy
 - Reassign registered subdomains (`blog.barnacl437` redirects to `barnacl437`)
+- (Not prioritized) Move the serving backend from Vercel to Cloudflare. I'm learning if Cloudflare is better anyway
 
 <small>[1] Not full, because some of my old writings aren't very interesting for y'all to read tbf. <br></small>
 
