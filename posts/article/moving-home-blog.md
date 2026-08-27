@@ -1,7 +1,7 @@
 ---
 title: Moving home for the blog (and my website, and further plans)
 tag: blog, technical, moving
-
+date: 2026-08-27
 ---
 
 Personal matter aside. I decided to write again. 
