@@ -1,6 +1,6 @@
 ---
 title: Moving home for the blog (and my website, and further plans)
-tag: blog, technical, moving
+tag: blog, announcement, technical, moving
 date: 2026-08-27
 ---
 
