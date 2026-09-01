@@ -1,6 +1,6 @@
 {
   "name": "pacific-void-centre",
-  "version": "1.08b1",
+  "version": "1.08b2",
   "description": "a formerly blog, now a personal website written by barnacl437. code taken from eleventy's '6 minutes to build a blog' tutorial.",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
