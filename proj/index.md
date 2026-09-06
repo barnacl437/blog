@@ -3,4 +3,4 @@ title: Projects
 layout: layout.html
 ---
 
-<p>Work in progress...</p>
+wip. currently i have nothing to show yet.
