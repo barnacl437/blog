@@ -35,6 +35,11 @@ if that sounds boring to you, yep. that's just all what it is. heh.
 
 regarding steam account ban scams: if you try to convince me i am being banned by mistake, or specifically because "i panicked and called 100+ friends to report you", you will be made fun of and our direct message history made public. dont you dare playing such filthy, mundane tricks on me.
 
+
+### <center>privacy & licence notice</center>
+this website is fully static with virtually no client-side features utilizing javascript. this website should never ask you for cookie (hopefully). why would i need to place a small data into your device when all you do is just read? 
+
+licensed under 437CAL. for more information you can read the licence [here](/LICENCE).
 <!--
 {% for post in collections.article reversed %}
   <article>
