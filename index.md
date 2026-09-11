@@ -24,7 +24,7 @@ i also know some python, years-long basic html/css, rusty windows batch, and nav
 for the last few years i tried developing a proficiency in the commonwealth variants of english. specifically, i prefer the standard established in the *Oxford English Dictionary*, with various tweaks and adjustments. you will certainly notice my writing style when you read my blog posts, especially the recent ones, and other texts i've written elsewhere in the recent time. though nothing is exactly that consistent. so don't really expect consistency though.
 
 ### <center>pacific void centre?</center>
-a few days back i thought about giving my website a proper name. during the time i also came up with my own imaginary music project (in the sense of *Ginger Root*, where it's not really defined as a musical band). then i named it *Pacific Void Centre* (also *Void Centre*). despite coming up with it, i don't yet plan to make and release music under the name yet. so i simply transferred the name back to this website. i will probably reserve *Void Centre* for other purposes. 
+~~a few days back~~ circa august 2026 i thought about giving my website a proper name. during the time i also came up with my own imaginary music project (in the sense of *Ginger Root*, where it's not really defined as a musical band). then i named it *Pacific Void Centre* (also *Void Centre*). despite coming up with it, i don't yet plan to make and release music under the name yet. so i simply transferred the name back to this website. i will probably reserve *Void Centre* for other purposes. 
 
 the name is based on what i call a *pole of inaccessibility*, specifically [*Point Nemo*](https://en.wikipedia.org/wiki/Pole_of_inaccessibility#Oceanic_pole_of_inaccessibility) because i've heard about it a while back, but i simply forgot or didn't really know whats it called. i just imagined its a place thats hard to reach, virtually lifeless and extremely remote, thus "void centre". it doesn't have anything to do with my website being basically unknown on the internet. trust me. its a purely for fun name.
 
@@ -39,7 +39,7 @@ regarding steam account ban scams: if you try to convince me i am being banned b
 ### <center>privacy & licence notice</center>
 this website is fully static with virtually no client-side features utilizing javascript. this website should never ask you for cookie (hopefully). why would i need to place a small data into your device when all you do is just read? 
 
-licensed under 437CAL. for more information you can read the licence [here](/LICENCE).
+licensed under 437CAL. for more information you can read the licence [here](/LICENCE.txt).
 <!--
 {% for post in collections.article reversed %}
   <article>
