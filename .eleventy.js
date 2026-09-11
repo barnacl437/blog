@@ -2,7 +2,8 @@ module.exports = function(eleventyConfig) {
   // passthru copy
   eleventyConfig.addPassthroughCopy("bundle.css");
   eleventyConfig.addPassthroughCopy("./assets");
-  eleventyConfig.addPassthroughCopy("LICENCE")
+  eleventyConfig.addPassthroughCopy("LICENCE.txt")
+  eleventyConfig.addPassthroughCopy(".well-known")
 
 eleventyConfig.addFilter("readableDate", dateObj => {
   if (!(dateObj instanceof Date)) {
