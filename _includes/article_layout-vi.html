@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ title }}">
+		<meta name="author" content="barnacl437">
+		<style>
+			@import url(/bundle.css);
+		</style>
+		<title>{{ title | default: "untitled" }} // viết vớ vỉn</title>
+	</head>
+	<body>
+
+		<header>
+			<table>
+				<tr> <th> <p>oép của bẩncl437</p></th> </tr>
+				<tr><th></th></tr>
+			</table>
+			<p><!-- a href="https://barnacl437.is-a.dev">main website</a--> 
+				 <a href="/babel/vi/">về trang chính</a> | <a href="/babel/vi/posts"> về trang viết lách</a> | bạn đang ở <code>{{ page.url }}</code></p>
+			<h1>{{ title | default: "_construction_page" }}</h1>
+			<p style="font-size:14px; color: chartreuse;"> {{ page.date | date: "%d/%m/%Y" }} {{ time }} </p>
+		</header>
+		<main>
+			{{ content }}
+		</main>
+		
+		<hr style="border: dotted; border-color: aquamarine; margin-top: 48px;">
+		<code>[-_-] EOF</code> | <code>tags: {{tag}}</code>
+			<p>(copydown) MMXXVI barnacl437.</p>
+	</body>
+</html>

@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("LICENCE.txt")
   eleventyConfig.addPassthroughCopy(".well-known")
 
+  
 eleventyConfig.addFilter("readableDate", dateObj => {
   if (!(dateObj instanceof Date)) {
     return dateObj;
@@ -48,6 +49,14 @@ eleventyConfig.addFilter("readableDate", dateObj => {
       
       return dateB.getTime() - dateA.getTime(); // Newest first
     });
+  });
+
+  eleventyConfig.addFilter("formatDate", (dateObj, locale = "en") => {
+    return new Intl.DateTimeFormat(locale, {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    }).format(new Date(dateObj));
   });
 };
 
