@@ -16,12 +16,27 @@ cụ thể là python cơ bản, html/css, windows batch và posix (unix) shell 
 
 
 ### mục đích
-ban đầu mở trang mạng nầy chỉ viết tiếng anh, nay để phục vụ đồng bào cộng với việc lâu rồi chưa viết lách tiếng mình, mình xin được mở thêm trang tiếng việt làm địa chỉ 'bốc phét'. nói vậy thôi chứ về mặt nội dung 
-mình sẽ cố gắng đầu tư sao cho được chất lượng mà cũng giải trí. nội dung các bài trang tiếng việt và trang tiếng anh sẽ không đồng bộ. các bạn xin chú ý.
+ban đầu mở trang mạng nầy chỉ viết tiếng anh, nay để phục vụ đồng bào cộng với việc lâu rồi chưa viết lách tiếng mình, mình xin được mở thêm trang tiếng việt làm địa chỉ 'bốc phét'. nội dung các bài trang tiếng việt và trang tiếng anh sẽ không đồng bộ. các bạn xin chú ý.
 
-hiện trang mới mở nên nội dung còn sơ sài. mình đang dành thời gian rảnh để cải thiện. nếu cần thông tin liên lạc hãy về [trang chủ tiếng anh](/#contact_me). 
+hiện trang mới mở nên nội dung còn sơ sài. mình đang dành thời gian rảnh để cải thiện.
+### liên lạc / mạng xã hội
+[bluesky @ barnacl437.is-a.dev](https://bsky.app/profile/did:plc:dphhes537ocs3djh3o3vovac/post/3msddl3eoyc2g) | [github @ barnacl437](https://github.com/barnacl437) | [steam account](https://steamcommunity.com/id/barnacl437/) | discord a còng `barnacl437` | nhớ những tháng ngày quăng e-mail cho nhau? gửi cho tôi tại địa chỉ barnacl437 a còng disroot chấm org. tôi không nhận offer deal đủng gì. đừng có bán hàng vào inbox tôi.
+
 bạn có thể sử dụng tiếng việt và mình sẽ sẵn sàng trả lời nếu có thể.
 
+còn các trang mạng xã hội khác? hãy thử tìm username `barnacl437`. không viết hết ra được :v. tôi không chắc là trang nào cũng có mặt tôi. nên là hãy điều chỉnh kỳ vọng của bạn.
+
+### thông cáo về quyền riêng tư & giấy phép
+trang này không sử dụng javascript — ít nhất là ở phần giao diện, nhưng dựa trên nền tảng [eleventy](https://11ty.dev) của nodejs (thì là javascript). trang sẽ không thu thập thông tin cũng như để lại cookies trên máy bạn. nội dung trên trang được cấp phép theo giấy phép [437CAL](/LICENCE.txt). TL;DR:
+
+bạn có quyền: 
+- truy cập nội dung (khi vẫn còn khả dụng)
+- chia sẻ (ví dụ, qua link) đến mọi người (lẽ dĩ nhiên của nội dung công cộng như blog)
+- thay đổi nội dung để dùng cho mục đích riêng (hợp pháp)
+- có thể làm hoặc không — ghi nhận tên tác giả gốc của nội dung
+- phát hành nội dung phái sinh dưới giấy phép nầy, sử dụng tên riêng của bạn, cùng tên của phương tiện chứa nội dung (blog, web, bản in).  
+
+nghe hơi kì lạ nhưng mình hi vọng với việc ghi rõ quy định giấy phép, bạn hiểu và chấp nhận hoặc không chấp nhận sử dụng nội dung trong trang nầy. 
 
 
 
