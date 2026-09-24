@@ -3,7 +3,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("bundle.css");
   eleventyConfig.addPassthroughCopy("./assets");
   eleventyConfig.addPassthroughCopy("LICENCE.txt")
-  eleventyConfig.addPassthroughCopy("./.well-known")
+  eleventyConfig.addPassthroughCopy("./.well-known/atproto-did")
 
   
 eleventyConfig.addFilter("readableDate", dateObj => {
