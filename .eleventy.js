@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("LICENCE.txt")
   eleventyConfig.addPassthroughCopy("./.well-known/atproto-did")
 
+
   
 eleventyConfig.addFilter("readableDate", dateObj => {
   if (!(dateObj instanceof Date)) {
