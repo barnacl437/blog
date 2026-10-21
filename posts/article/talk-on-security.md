@@ -1,5 +1,5 @@
 ---
-name: what we're on about security
+title: what we're on about security
 date: 2026-10-22
 tag: blog, security, opinion (ig)
 ---
