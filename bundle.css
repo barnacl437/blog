@@ -116,12 +116,12 @@ button:hover {
 
 /* unvisited link */
 a:link {
-  color:rgb(158, 120, 247);
+  color:rgb(23, 212, 245);
 }
 
 /* visited link */
 a:visited {
-  color: #ae6df8de;
+  color: rgb(23, 134, 245);
   text-decoration: overline;
 }
 
