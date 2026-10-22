@@ -19,3 +19,14 @@ This licence can be used as a template, thus it is also recommended that you
 keep the curly brackets intact. You can modify this licence to include your
 own policies, as long as the name is changed. 
 
+
+*** APPENDIX: For source code or other related intellectual resources derived *** 
+*** from another repository ***
+
+The original content (all or in parts) shall be licensed under the same licence as 
+the original repository where it originated, in case of this repository being a
+fork (a permitted copy) of another repository. If a licence is not present, it
+is assumed no licence OR in the public interest. Please refer to the original 
+repository(ies) for more information at 
+{https://github.com/11ty/demo-eleventy-from-scratch-blog}.
+
