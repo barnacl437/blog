@@ -4,7 +4,7 @@ layout: layout-vi.html
 
 ---
 ### đôi lời giới thiệu...
-xin chào! mình là barnett. yep mình là người việt. mình lấy tên giả vì mình chưa muốn nổi tiếng, hoặc... có tiếng thì cũng không muốn phạm vào đời sống riêng tư.
+xin chào! mình là barnett. yep mình là người việt. mình lấy tên giả vì mình chưa muốn nổi tiếng, hoặc... có tiếng thì cũng không muốn bộc bạch gì về đời tư.
 
 năm nay đã được 19 nồi bánh tét. nam (anh ấy/người đó tùy thích. đừng nhầm mình sang nữ là oke. mình thẳng mà bạn hiểu không 🐧🐧). mình đến từ hà nội.
 

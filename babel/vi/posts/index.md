@@ -3,7 +3,7 @@ layout: layout-vi.html
 title: viết lách
 ---
 
-nơi tôi viết về mọi thứ ~~trừ thứ hai~~. 
+trang web log nơi tôi viết về mọi thứ ~~trừ thứ hai~~. 
 
 
 {% for post in collections.article_vi reversed %}

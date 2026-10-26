@@ -57,7 +57,7 @@ meta {
     background-color: rgb(1, 8, 20);
     color: rgb(255, 255, 255);
     font-family: 'PT Serif', serif;
-    font-size: 20px;
+    font-size: 18px;
     width:65%;
     text-align:justify;
     margin: auto;
@@ -121,7 +121,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgb(23, 134, 245);
+  color: rgb(107, 180, 253);
   text-decoration: overline;
 }
 
