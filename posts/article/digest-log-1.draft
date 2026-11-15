@@ -1,0 +1,24 @@
+---
+title: digest log, issue prime
+date: 2026-11-08
+tag: blog, random stuff, digest log
+---
+
+### premise
+T<small><small>he *digest log* tries to include my random writings about different gizmos, and thus is a composite of different topics. this will be different from other posts as i write about a certain theme. mostly to save my blog from a dead state. expect opinions and unorganized information. this will be the first (#1) issue of digest log, titled "prime".</small></small>
+
+***
+
+so much things has happened since the last post. i must be rambling about security and ethics, innit. and the next day follows the PHP vulnerability (not exactly tho. but at least when i learnt about it). i'm glad Vercel didn't run on PHP. otherwise i've had moved to cloudflare /j
+
+anyway. i guess it's fun to look back at what happened in the past two weeks. it's like a quick recap.
+
+- i already covered eMudhra key incident in an earlier post. didn't mention the company name though. check it out [here](/posts/talk-on-security).
+
+- the aforementioned PHP incident that affected nearly 70% of the world's websites with known tech stacks. it is a RCE (remote code execution) vulnerability called [PHP2Shell](https://en.wikipedia.org/wiki/PHP2Shell), covering a broad range of PHP versions (5.4-8.5), which required immediate actions from server operators and PHP developers around the world. it was first discovered by Ryan Austin at Calif, a California-based security firm; together with help from [Wiz](https://en.wikipedia.org/wiki/Wiz,_Inc.) engineers and OpenAI's GPT models. The PHP dev team rated it a 9.2/10 CVSS score.
+
+- [some Linux vulnerability](https://www.aikido.dev/blog/linux-kernel-tcp-rce-vulnerability-cve-2026-98432)? idk. doesn't sound as notable to me.
+
+- *ns2jb*, a Nintendo Switch 2 soft jailbreak by pepsipu<sup>[1](https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/?utm_source=chatgpt.com) [2](https://gitlab.com/pepsipu/ns2jb)</sup>. said to be a 'userland' exploit that lets people run homebrew, mod games and dump saves out of the device. it is a reversible, volatile mod; which would be wiped away when you reboot. this involves a buffer overflow manipulation from a Switch app called *SmileBASIC*, running on Switch 2 via backward compatibility (or, i wouldnt call it such. they should be *cross-compatible* imo).
+
+
