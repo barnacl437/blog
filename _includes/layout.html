@@ -15,23 +15,17 @@
 	</head>
 	<body>
 
-	<header>
-		<table>
-			<tr> <th><h1>{{ title | default: "pacific void centre" }}</h1>
-				<div style="text-align: right; color:rgb(0, 255, 255)"><p>a barnacl437's website</p></div> 
-			</th>
-				<th><p> 
-					<!-- navigation bar goes below -->
-			|	<a href="/index.html">homm paij</a> . <a href="/proj/">projects</a> . <a href="/posts/">blog posts</a> . <a href="/babel/">babel</a>
-			<br> | <a href="/hyperlink/">hyperlink</a>  </p> 
-					<!-- yeah oke thats it -->
-				</th></tr> 
-				 <tr><th>
-					
-				</th></tr>
-				 </table>
-			
-				 
+	<header class="site-header">
+		<div class="site-header__identity">
+			<h1>{{ title | default: "pacific void centre" }}</h1>
+			<div style="text-align: right; color:rgb(0, 255, 255)"><p>a barnacl437's website</p></div>
+		</div>
+		<nav class="site-navigation" aria-label="Primary">
+			<p>
+				 <a href="/index.html">homm paij</a> . <a href="/proj/">projects</a> . <a href="/posts/">blog posts</a> . <a href="/babel/">babel</a>
+				. <a href="/hyperlink/">hyperlink</a>
+			</p>
+		</nav>
 	</header>
 		<main>
 			{{ content }}
@@ -40,8 +34,8 @@
 		<hr style="border: dotted;">
     	
 		<p>(copydown) MMXXVI barnacl437.<br><br> 
-			<a href="https://github.com/barnacl437/blog"><code>v1.08 patch 1 (accessibility patch) (2026-10-26)</code></a>, 
-			<a href="https://www.11ty.dev/docs/versions/"><code>"dependencies": {"@11ty/eleventy": "^3.1.2"}</code> (24 June 2025)</a>
+			<a href="https://github.com/barnacl437/blog"><code>v{{ siteVersion }}</code></a>,
+			<a href="https://www.11ty.dev/docs/versions/"><code>Eleventy {{ eleventyVersion }}</code></a>
 		<br>
 		</p style="margin-top: 48px;">
 	</body>

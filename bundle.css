@@ -14,29 +14,14 @@ meta {
 }
 */
 
-/*
-* @font-face rule for PT Serif.
-* The 'font-family' name should be consistent.
-* The 'src' property now includes 'local' and multiple formats (woff2, woff) for modern browser compatibility.
-* You will need to convert your .ttf file to .woff2 and .woff formats and place them in the same directory.
-* 'font-display: swap' is added to prevent invisible text while the font loads.
-*/
 @font-face {
-  font-family: 'PT Serif';
-  src: local('PT Serif'), local('PTSerif-Regular'),
-       url('/assets/stuff/PTSerif-Regular.woff2') format('woff2'),
-       url('/assets/stuff/PTSerif-Regular.woff') format('woff'),
-       url('/assets/stuff/PTSerif-Regular.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Space Grotesk';
+  src: url('/assets/stuff/SpaceGrotesk-Variable.ttf') format('truetype');
+  font-weight: 300 700;
   font-style: normal;
   font-display: swap;
 }
 
-/*
-* A new @font-face rule is created for Intel One Mono.
-* The 'src' property was incorrectly placed inside the '.mono' selector. It belongs here.
-* This rule also includes multiple font formats and 'font-display: swap'.
-*/
 @font-face {
   font-family: 'Intel One Mono';
   src: local('Intel One Mono Regular'), local('IntelOneMono-Regular'),
@@ -48,15 +33,11 @@ meta {
   font-display: swap;
 }
 
-/*
-* The font-family name here is simplified to 'PT Serif' to match the @font-face rule.
-* 'sans-serif' is a better fallback for a sans-serif font like Intel One Mono.
-*/
 @media (min-width: 800px) {
   body {
     background-color: rgb(1, 8, 20);
     color: rgb(255, 255, 255);
-    font-family: 'PT Serif', serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 18px;
     width:65%;
     text-align:justify;
@@ -64,28 +45,36 @@ meta {
   }
 }
 
-/* input styling */
-input, table {
+.site-header {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  width: 100%;
+}
+
+.site-header__identity,
+.site-navigation {
+  min-width: 0;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 799px) {
+  .site-header {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+input {
   color:aqua;
   background-color: #040b31;
-  /* Use the simplified font-family name with a generic fallback. */
   font-family: 'Intel One Mono', monospace;
   width:40%
 }
 
-/*
-input[type="text"]:active, input[type="text"]:hover, input[type="text"]:focus {
-  color:aqua;
-  background-color: #040b31;
-  font-family: Intel One Mono Regular;
-  width: 40%;
-}
-*/
-
 button {
   color: aquamarine;
   background-color: rgba(0, 110, 255, 0.555);
-  /* Use the simplified font-family name with a generic fallback. */
   font-family: 'Intel One Mono', monospace;
 }
 
@@ -94,38 +83,31 @@ button:hover {
   font-weight: 600;
 }
 
-/* view size */
 @media (max-width: 799px) {
   body {
     background-color: rgb(1, 8, 20);
     color: rgb(255, 255, 255);
-    /* Use the simplified font-family name. */
-    font-family: 'PT Serif', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     width:96%;
     text-align:justify;
     margin: auto;
   }
 
   img {
-    max-height: 50vh;
-    width: auto;
-    object-fit: contain;
-    transition: max-height 0.3s ease;
+    max-width: 100%;
+    height: auto;
   }
 }
 
-/* unvisited link */
 a:link {
   color:rgb(23, 212, 245);
 }
 
-/* visited link */
 a:visited {
   color: rgb(107, 180, 253);
   text-decoration: overline;
 }
 
-/* mouse over link */
 a:hover {
   color: rgb(0, 16, 19);
   font-weight: 600;
@@ -137,12 +119,11 @@ mark {
   color:rgb(255, 255, 255);
 }
 
-/* selected link */
 a:active {
   color: deepblue;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
   color: white ;
   background: aqua;
 }
@@ -161,7 +142,6 @@ h1 {
   font-size: 2.1em;
 }
 
-/* navigation bar colouring */
 .navbar {
   text-align: center;
   background-color:rgb(0, 0, 0);
@@ -179,17 +159,10 @@ summary {
   font-weight: 500;
 }
 
-/*
-.bgcyan {
-
-}
-*/
-
 .sheading {
   color:rgb(164, 247, 219)
 }
 
-/* hlt[colour] are simply just colour highlighting classes to remove the need to define attribute again. */
 .hltcyan {
   color:cyan;
   font-size: 0.8em;
@@ -199,8 +172,6 @@ summary {
   color:greenyellow
 }
 
-/* how to use hover-to-spoiler:
-use class="spoiler" for the main text, and class="hide" for text you want to hide/spoiler.  */
 .hide {
   display: none;
 }
@@ -231,34 +202,17 @@ blockquote {
 }
 
 .mono {
-  /* Use the simplified font-family name. The src is now in the @font-face rule. */
   font-family: 'Intel One Mono', monospace;
 }
 
-/*
-* The 'cursor' property can't handle multiple URL values in a single declaration.
-* To use different cursors, you would apply them to specific elements or states, e.g.,
-* a:hover { cursor: url(...); }
-* input[type="text"] { cursor: url(...); }
-* I've removed the conflicting body rules below.
-*/
-/* pointer set */
-/*
-body {
-  cursor: url(/pictures/pointset/ptre/pointre.png), default;
-  cursor: url(/pictures/pointset/ptre/pointre-point.png), pointer;
-  cursor: url(/pictures/pointset/ptre/pointre-text.png), text;
+.article-site-label {
+  color: aqua;
+  background-color: #040b31;
+  font-family: 'Intel One Mono', monospace;
+  width: 100%;
+  overflow-x: auto;
 }
-*/
 
-/* -------------------------  */
-/* -------------------------  */
-/* -------------------------  */
-/* -------------------------  */
-/* -------------------------  */
-/* ---------------------------------- */
-/* testing zone --- generated lol nvm */
-/* slider mod */
 input[type="range"] {
   border-radius: 5px;
   outline: none;
@@ -273,54 +227,80 @@ input[type="range"]:focus {
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 16px; /* Increased size */
+  width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #0078d7; /* Modern accent color */
+  background: #0078d7;
   cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0,0,0,.2); /* Subtle shadow */
+  box-shadow: 0 1px 3px rgba(0,0,0,.2);
 }
 
 input[type="range"]::-moz-range-thumb {
-  width: 16px; /* Increased size */
+  width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #0078d7; /* Modern accent color */
+  background: #0078d7;
   cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0,0,0,.2); /* Subtle shadow */
-  border: none; /* Remove default border */
+  box-shadow: 0 1px 3px rgba(0,0,0,.2);
+  border: none;
 }
 
 input[type="range"]::-webkit-slider-thumb:hover,
 input[type="range"]::-moz-range-thumb:hover {
-  transform: scale(1.1); /* Slight scale on hover */
+  transform: scale(1.1);
 }
 
-/* Style for the filled part of the track */
 input[type="range"]::-webkit-slider-runnable-track {
   height: 6px;
   border-radius: 5px;
-  background: #e0e0e0; /* Use the same background color */
+  background: #e0e0e0;
   cursor: pointer;
 }
 
 input[type="range"]::-moz-range-track {
   height: 6px;
   border-radius: 5px;
-  background: #e0e0e0; /* Use the same background color */
+  background: #e0e0e0;
   cursor: pointer;
 }
 
-/* Firefox specific styles to color the track before the thumb */
 input[type="range"]::-moz-range-progress {
-  background-color: #0078d7; /* Accent color */
+  background-color: #0078d7;
   height: 6px;
   border-radius: 5px;
 }
 
-/* code block twerking */
-pre,
-code,
+pre {
+  display: block;
+  max-width: 100%;
+  padding: 0.75em 1em;
+  margin: 1em 0;
+  color: white;
+  background-color: #2d3645;
+  font-size: 0.875em;
+  line-height: 1.5;
+  border: none;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: "Intel One Mono", monospace;
+  white-space: pre;
+}
+
+pre code {
+  display: block;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+  font-family: inherit;
+  margin: 0;
+  white-space: inherit;
+}
+
 samp,
 kbd {
   display: block;
@@ -333,45 +313,41 @@ kbd {
   border-radius: 4px;
   overflow-x: auto;
   font-family: "Intel One Mono", monospace;
-  margin: 0; /* Remove default margins */
-  white-space: pre; /* Preserve formatting without extra space */
+  margin: 0;
+  white-space: pre;
 }
 
-/* Inline code */
 :not(pre) > code {
-  display: inline-block;
-  padding: 1px 3px; /* Slightly more horizontal padding */
-  font-size: 14px;
+  display: inline;
+  padding: 1px 3px;
+  font-size: 0.9em;
   color: white;
-  background-color: #040b31;
-  border: 1px solid #ccc;
+  background-color: #082b71;
+  border: none;
   border-radius: 2px;
-  margin: 0 1px;
+  vertical-align: baseline;
   font-family: "Intel One Mono", monospace;
-  line-height: 1.2; /* Better vertical alignment */
+  line-height: inherit;
 }
-/* end code block */
 
-/* --- checkbox style --- */
 input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;
-  background-color: #e0e0e0; /* Lighter background */
-  border: 2px solid #b0b0b0; /* Slightly darker border */
+  background-color: #e0e0e0;
+  border: 2px solid #b0b0b0;
   border-radius: 4px;
   width: 16px;
   height: 16px;
   cursor: pointer;
-  position: relative; /* Allows for absolute positioning of the checkmark */
-  transition: all 0.3s ease; /* Smooth transition for all properties */
+  position: relative;
+  transition: all 0.3s ease;
 }
 
 input[type="checkbox"]:checked {
-  background-color: #0078d7; /* Accent color when checked */
+  background-color: #0078d7;
   border-color: #0078d7;
 }
 
-/* Create the checkmark using a pseudo-element */
 input[type="checkbox"]:checked::before {
   content: "";
   position: absolute;
@@ -393,7 +369,6 @@ input[type="checkbox"]:hover {
   transform: scale(1.1);
 }
 
-/* --- button style --- */
 button,
 input[type="button"],
 input[type="submit"],
@@ -401,24 +376,24 @@ input[type="reset"] {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
-  background-color: #0078d7; /* Accent color */
+  background-color: #0078d7;
   color: white;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  display: inline-flex; /* Use inline-flex for better alignment */
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px; /* Space between icon and text, if any */
+  gap: 8px;
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: #005a9e; /* Darker shade on hover */
-  transform: translateY(-1px) scale(1.05); /* Move up slightly and scale */
+  background-color: #005a9e;
+  transform: translateY(-1px) scale(1.05);
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
@@ -426,7 +401,7 @@ button:active,
 input[type="button"]:active,
 input[type="submit"]:active,
 input[type="reset"]:active {
-  background-color: #004275; /* Even darker shade on active */
+  background-color: #004275;
   transform: translateY(0) scale(0.95);
   box-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
@@ -436,17 +411,16 @@ input[type="button"]:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus {
   outline: none;
-  box-shadow: 0 0 0 2px rgba(0, 120, 215, 0.5); /* Focus outline */
+  box-shadow: 0 0 0 2px rgba(0, 120, 215, 0.5);
 }
 
-/* --- Optional: Style for disabled buttons --- */
 button:disabled,
 input[type="button"]:disabled,
 input[type="submit"]:disabled,
 input[type="reset"]:disabled {
-  background-color: #b0b0b0; /* Grayed out */
+  background-color: #b0b0b0;
   cursor: not-allowed;
-  opacity: 0.6; /* Reduce opacity for better visual feedback */
+  opacity: 0.6;
   transform: none;
   box-shadow: none;
 }
@@ -455,22 +429,21 @@ button:disabled:hover,
 input[type="button"]:disabled:hover,
 input[type="submit"]:disabled:hover,
 input[type="reset"]:disabled:hover {
-   background-color: #b0b0b0; /* Keep the same gray color on hover */
-   transform: none; /* Disable transform on hover */
+   background-color: #b0b0b0;
+   transform: none;
 }
 
-/* --- text input --- */
 input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #b0b0b0; /* Consistent border color */
+  border: 1px solid #b0b0b0;
   background-color:#040b31;
   font-size: 16px;
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
   outline: none;
 }
 
@@ -478,34 +451,32 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus,
 textarea:focus {
-  border-color: #0078d7; /* Accent color on focus */
-  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5); /* Focus shadow */
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
 }
 
 input[type="text"]:hover,
 input[type="email"]:hover,
 input[type="password"]:hover,
 textarea:hover {
-  border-color: #0078d7; /* Accent color on hover */
+  border-color: #0078d7;
 }
 
 textarea {
-  resize: vertical; /* Allow vertical resizing */
+  resize: vertical;
   min-height: 100px;
 }
 
-/* --- Placeholder Styles --- */
-/* Style the placeholder text */
-::-webkit-input-placeholder { /* Chrome, Safari, Opera */
+::-webkit-input-placeholder {
   color: #b0b0b0;
 }
-::-moz-placeholder { /* Firefox */
+::-moz-placeholder {
   color: #b0b0b0;
 }
-:-ms-input-placeholder { /* Internet Explorer */
+:-ms-input-placeholder {
   color: #b0b0b0;
 }
-::placeholder { /* Modern browsers */
+::placeholder {
   color: #b0b0b0;
 }
 
@@ -516,20 +487,11 @@ input {
   width:40%
 }
 
-table {
+main table {
     color:aqua;
     background-color: #040b31;
     font-family: 'Intel One Mono', monospace;
     width: 100%;
-    display: block; 
+    display: block;
     overflow-x: auto;
 }
-
-/* --- end generated code --- */
-/* -------------------------  */
-/* -------------------------  */
-/* -------------------------  */
-/* -------------------------  */
-/* -------------------------  */
-/* -------------------------  */
-/* -------------------------  */
