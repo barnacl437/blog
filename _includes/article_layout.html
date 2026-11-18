@@ -3,7 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="{{ title }}">
+        <meta name="description" content="{{ standfirst | default: title | escape }}">
+		<meta property="og:site_name" content="pacific void centre">
+		<meta property="og:title" content="{{ title | default: 'untitled' | escape }}">
+		<meta property="og:description" content="{{ standfirst | default: title | escape }}">
 		<meta name="author" content="barnacl437">
 		<style>
 			@import url(/bundle.css);
@@ -17,7 +20,11 @@
 			<p><!-- a href="https://barnacl437.is-a.dev">main website</a--> 
 				 <a href="/index.html">home index</a> | <a href="/posts/"> back to posts index</a> | you are currently at <code>{{ page.url }}</code></p>
 			<h1>{{ title | default: "_construction_page" }}</h1>
-			<p style="font-size:14px; color: chartreuse;"> {{ page.date | readableDate }} {{ time }} </p>
+			{% if standfirst %}
+  				<h4 class="standfirst">{{ standfirst | escape }}</h4> <!-- use "standfirst:" along with other post headers -->
+			
+			{% endif %}
+			<p style="font-size:14px; color: chartreuse;"> {{ page.date | readableDate }} {{ time }} </p> <!-- time is redundant anyway lol -->
 		</header>
 		<main>
 			{{ content }}

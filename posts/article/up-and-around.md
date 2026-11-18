@@ -1,6 +1,7 @@
 ---
 title: up and around
 date: 2026-11-16
+standfirst: first issue of the monthly update, i assume.
 tag: blog, monthly update, personal
 ---
 
