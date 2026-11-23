@@ -3,9 +3,9 @@ layout: layout.html
 ---
 ### <center> some introduction... ig</center> 
 
-greetings! i'm Barnett. i'm a second-year university student majoring information assurance, finding his love in technology, language, and all the titbits. i am nineteen years old, is a man ~~(welp, you expecting me to be some random e-girl?)~~, and currently live in hanoi. tho i just occasionally like pretending to be in perth. 
+greetings! i'm Barnett. i'm a former second-year information assurance student, dropped-out since, now i'm mostly free and looking for new learning oppotunities; finding his love in technology, language, and all the titbits. i am nineteen years old, is a man ~~(welp, you expecting me to be some random e-girl?)~~, and currently live in hanoi. tho i just occasionally like pretending to be in perth. 
 
-knows *vietnamese* (n), *english* (b2), *toki pona* (a1, super rusty). looking to learn *japanese* and *esperanto*. heck, even *lingua franca nova*'s in my plan. notice how three **conlangs** got in the way? frankly, i do see them interesting as languages not rooted in any single particular culture. i occasionally have pick-up knowledge of certain other languages thru memorizing a very small amount of vocabulary and grammar rules of them.
+knows *vietnamese* (n), *english* (b2), *toki pona* (a1, super rusty). currently learning *chinese* and *esperanto*. heck, even *lingua franca nova*'s in my plan. notice how three **conlangs** got in the way? frankly, i do see them interesting as languages not rooted in any single particular culture. for *toki pona*, though, i found it too simple to be a practical language in my opinion, so i put it aside. doesnt mean i hate it tho. i occasionally have pick-up knowledge of certain other languages thru memorizing a very small amount of vocabulary and grammar rules of them.
 
 i also know some python, years-long basic html/css, rusty windows batch, and navigable posix shell commands. looking to learn java, c/c++, and js some time. im also interested in some other esoteric languages too.
 

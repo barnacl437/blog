@@ -62,7 +62,7 @@ meta {
   z-index: -1;
   inset-block: 0;
   inset-inline: calc(50% - 50vw);
-  background-color: #011027;
+  background-color: #022964;
 }
 
 .site-header__identity h1,
@@ -231,11 +231,24 @@ blockquote {
 }
 
 .article-site-label {
-  color: aqua;
-  background-color: #040b31;
-  font-family: 'Intel One Mono', monospace;
+  color: rgb(255, 255, 255);
+  background-color: #0363cf;
+  font-family: 'Space Grotesk', monospace;
   width: 100%;
-  overflow-x: auto;
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+  margin-block-start: 0;
+  padding-block: 0.5rem 0.25rem;
+}
+
+.article-site-label::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset-block: 0;
+  inset-inline: calc(50% - 50vw);
+  background-color: #106ad2;
 }
 
 input[type="range"] {
