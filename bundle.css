@@ -62,7 +62,7 @@ meta {
   z-index: -1;
   inset-block: 0;
   inset-inline: calc(50% - 50vw);
-  background-color: #022964;
+  background-color: #000712;
 }
 
 .site-header__identity h1,
@@ -134,9 +134,9 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(0, 16, 19);
+  color: rgb(0, 4, 5);
   font-weight: 600;
-  background-color: rgb(23, 212, 245);
+  background-color: rgb(160, 236, 249);
 }
 
 mark {
@@ -150,7 +150,7 @@ a:active {
 
 ::-moz-selection {
   color: white ;
-  background: aqua;
+  background: rgb(12, 214, 250);
 }
 
 .running-text {
@@ -160,7 +160,7 @@ a:active {
 
 ::selection {
   color: rgb(0, 0, 0);
-  background: rgb(110, 248, 243);
+  background: rgb(12, 214, 250);
 }
 
 h1 {
