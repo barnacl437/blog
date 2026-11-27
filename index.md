@@ -18,7 +18,7 @@ for a tldr thingy called about me, check it out [here](/aboutme).
 </details>
 
 ### <center>privacy & licence notice</center>
-this website is fully static with virtually no client-side features utilizing javascript. this website should never ask you for cookie (hopefully). why would i need to place a small data into your device when all you do is just read? 
+this website is fully static with virtually no client-side features utilizing javascript. this website should never ask you for cookie (hopefully). why would i need to place a small data into your device when all you do is just read? [oh allah](## "wait im not a muslim believer lol just a cool way of saying omg"), but please dont mind if your browser has a caching function which caches this website into a cache section on your caching disk. thats purely the caching cached website not any nasty caching tracking stuff. lots of "cache"s, heh? 
 
 licensed under 437CAL. for more information you can read the licence [here](/LICENCE.txt).
 <!--

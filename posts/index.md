@@ -4,7 +4,7 @@ layout: "layout.html"
 ---
 
 
-here comes my writings. intermittently blogged since 2023(tm). here are posts i've written and pasted on here since mid-2025. dont ask me where was the rest of them before that.
+here comes my writings. intermittently blogged since 2023<sup>tm</sup>. here are posts i've written and pasted on here since mid-2025. dont ask me where was the rest of them before that. expect opinions.
 
 {% for post in collections.article reversed %}
   <article>
